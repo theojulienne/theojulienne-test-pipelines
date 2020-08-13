@@ -21,4 +21,4 @@ jobs:
     - name: make
       run: make factorial
     - name: run
-      run: ./factorial
+      run: "top -l 1; ./factorial; top -l 1"
