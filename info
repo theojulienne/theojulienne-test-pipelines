@@ -1,0 +1,6 @@
+#/bin/bash
+
+curl canhazip.com
+sw_vers
+uname -a
+system_profiler SPHardwareDataType SPMemoryDataType SPEthernetDataType SPStorageDataType
