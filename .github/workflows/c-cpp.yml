@@ -12,7 +12,7 @@ jobs:
     
     strategy:
       matrix:
-        splat: ['1', '2', '3', '4', '5']
+        splat: ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     steps:
     - uses: actions/checkout@v2
