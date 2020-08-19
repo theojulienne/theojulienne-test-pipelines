@@ -3,4 +3,7 @@
 curl canhazip.com
 sw_vers
 uname -a
+uptime
+sysctl hw.physicalcpu hw.logicalcpu
+top -l 1
 system_profiler SPHardwareDataType SPMemoryDataType SPEthernetDataType SPStorageDataType
