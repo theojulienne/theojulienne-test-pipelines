@@ -1,10 +1,7 @@
 #!/bin/bash
 
 (
-    for i in $(seq 10); do
-        top -l 1
-        sleep 10
-    done
+    top -l 10 -i 10
 ) &
 
 ./factorial
